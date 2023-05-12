@@ -117,7 +117,7 @@ Repeat = 'magenta'
 Operator = 'cyan'
 PreProc = 'magenta'
 Include = 'magenta'
-Exception = 'yellow'
+Exception = 'magenta'
 StorageClass = 'cyan'
 Structure = 'cyan'
 Typedef = 'magenta'
@@ -212,7 +212,7 @@ StatusLineNC = 'alt_bg alt_bg'
 '@variable.builtin' = 'light_red'
 
 '@constant' = 'link:Constant'
-'@constant.builtin' = 'link:Special'
+'@constant.builtin' = 'yellow'
 '@constant.macro' = 'link:Define'
 
 '@namespace' = 'link:Include'
@@ -242,8 +242,8 @@ StatusLineNC = 'alt_bg alt_bg'
 
 # Tags
 '@tag' = 'link:Tag'
-'@tag.attribute' = 'orange'
-'@tag.delimiter' = 'fg'
+'@tag.attribute' = 'light_red'
+'@tag.delimiter' = 'light_gray'
 
 # Conceal
 # '@conceal' = 'link:Comment'
