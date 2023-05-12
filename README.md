@@ -27,7 +27,7 @@
     </a>
 </div>
 
-My take on the iconic Onedark colorscheme
+My take on the iconic Onedark colorscheme. Ported for Neovim 100% Lua.
 
 ![demo1](https://user-images.githubusercontent.com/29136904/237923271-802491ea-e632-4257-962b-731ae3dffd3a.png)
 
