@@ -345,16 +345,16 @@ IndentBlanklineContextChar = 'link:Comment'
 IndentBlanklineContextStart = '- - u'
 
 [Telescope]
-TelescopeSelection = 'link:Visual'
-TelescopeSelectionCaret = 'dark_red select'
-TelescopeMatching = 'cyan - bi'
-TelescopeBorder = 'blue alt_bg'
-TelescopeNormal = 'fg alt_bg'
-TelescopePromptTitle = "orange"
+TelescopeSelection = '- select'
+TelescopeSelectionCaret = 'magenta select'
+TelescopeMatching = 'yellow - bi'
+TelescopeBorder = 'blue bg'
+TelescopeNormal = 'fg bg'
+TelescopePromptTitle = "magenta"
 TelescopePromptPrefix = "magenta"
-TelescopeResultsTitle = "orange"
-TelescopePreviewTitle = "orange"
-TelescopePromptCounter = "dark_red"
+TelescopeResultsTitle = "magenta"
+TelescopePreviewTitle = "magenta"
+TelescopePromptCounter = "cyan"
 TelescopePreviewHyphen = "dark_red"
 
 [Lir]
@@ -536,3 +536,4 @@ WhichKeyDesc = 'fg'
 WhichKeyFloat = '- alt_bg'
 WhichKeyValue = 'alt_fg'
 WhichKeyBorder = 'link:FloatBorder'
+
