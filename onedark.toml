@@ -156,7 +156,7 @@ StatusLineNC = 'alt_bg alt_bg'
 # Punctuation
 '@punctuation.delimeter' = 'link:Delimiter'
 '@punctuation.bracket' = 'link:Delimiter'
-'@punctuation.special' = 'light_red'
+'@punctuation.special' = 'dark_red'
 
 # Literals
 '@string' = 'link:String'
