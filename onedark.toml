@@ -521,6 +521,7 @@ BufferLineIndicatorSelected = 'hint'
 rustEnumVariant = 'cyan'
 rustSigil = 'fg'
 rustEscape = 'link:String'
+'@lsp.type.formatSpecifier.rust' = '@punctuation.special'
 
 [Lazy]
 LazyButton = 'alt_fg alt_bg'

@@ -430,6 +430,7 @@ theme.set_highlights = function()
   hl(0, "rustEnumVariant", { fg = c.cyan, bg = 'NONE' })
   hl(0, "rustSigil", { fg = c.fg, bg = 'NONE' })
   hl(0, "rustEscape", { link = 'String' })
+  hl(0, "@lsp.type.formatSpecifier.rust", { link = '@punctuation.special' })
 
   -- Lazy
   hl(0, "LazyButton", { fg = c.alt_fg, bg = c.alt_bg })
