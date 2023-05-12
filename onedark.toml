@@ -209,7 +209,7 @@ StatusLineNC = 'alt_bg alt_bg'
 
 # Identifiers
 '@variable' = 'link:Variable'
-'@variable.builtin' = 'light_red'
+'@variable.builtin' = 'yellow'
 
 '@constant' = 'link:Constant'
 '@constant.builtin' = 'yellow'
