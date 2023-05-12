@@ -505,12 +505,16 @@ BufferLineIndicatorSelected = 'hint'
 '@text.literal.markdown_inline' = 'orange'
 '@text.literal.markdown' = 'orange'
 
-[lua]
+[Lua]
 '@lsp.type.property.lua' = 'fg'
 '@lsp.typemod.variable.global.lua' = 'light_red'
 '@lsp.mod.global.lua' = 'light_red'
 '@constant.builtin.lua' = 'orange'
 '@field.lua' = 'fg'
+
+[Typescript]
+'@lsp.type.interface.typescriptreact' = 'cyan'
+
 
 [Lazy]
 LazyButton = 'alt_fg alt_bg'

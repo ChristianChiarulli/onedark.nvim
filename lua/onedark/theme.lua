@@ -423,6 +423,9 @@ theme.set_highlights = function()
   hl(0, "@constant.builtin.lua", { fg = c.orange, bg = 'NONE' })
   hl(0, "@field.lua", { fg = c.fg, bg = 'NONE' })
 
+  -- typescript
+  hl(0, "@lsp.type.interface.typescriptreact", { fg = c.cyan, bg = 'NONE' })
+
   -- Lazy
   hl(0, "LazyButton", { fg = c.alt_fg, bg = c.alt_bg })
   hl(0, "LazyButtonActive", { fg = c.fg, bg = c.light_gray })
