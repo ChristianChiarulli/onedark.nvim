@@ -369,7 +369,7 @@ NvimTreeIndentMarker = 'indent'
 NvimTreeNormal = 'fg alt_bg'
 NvimTreeWinSeparator = 'alt_bg alt_bg'
 NvimTreeFolderName = 'link:Directory'
-NvimTreeOpenedFolderName = 'alt_fg - bi'
+NvimTreeOpenedFolderName = 'folder - bi'
 NvimTreeEmptyFolderName = 'dark_gray - i'
 NvimTreeGitIgnored = 'dark_gray - i'
 NvimTreeImageFile = 'magenta'
@@ -539,5 +539,6 @@ WhichKeyBorder = 'link:FloatBorder'
 
 [Neogit]
 NeogitRemote = "orange"
-gitsummary = "fg"
+gitcommitSummary = "fg"
 gitcommitBranch = "orange"
+gitcommitHeader = "blue"

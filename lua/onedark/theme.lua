@@ -290,7 +290,7 @@ theme.set_highlights = function()
   hl(0, "NvimTreeNormal", { fg = c.fg, bg = c.alt_bg })
   hl(0, "NvimTreeWinSeparator", { fg = c.alt_bg, bg = c.alt_bg })
   hl(0, "NvimTreeFolderName", { link = 'Directory' })
-  hl(0, "NvimTreeOpenedFolderName", { fg = c.alt_fg, bg = 'NONE', bold=true, italic=true, })
+  hl(0, "NvimTreeOpenedFolderName", { fg = c.folder, bg = 'NONE', bold=true, italic=true, })
   hl(0, "NvimTreeEmptyFolderName", { fg = c.dark_gray, bg = 'NONE', italic=true, })
   hl(0, "NvimTreeGitIgnored", { fg = c.dark_gray, bg = 'NONE', italic=true, })
   hl(0, "NvimTreeImageFile", { fg = c.magenta, bg = 'NONE' })
@@ -450,8 +450,9 @@ theme.set_highlights = function()
 
   -- Neogit
   hl(0, "NeogitRemote", { fg = c.orange, bg = 'NONE' })
-  hl(0, "gitsummary", { fg = c.fg, bg = 'NONE' })
+  hl(0, "gitcommitSummary", { fg = c.fg, bg = 'NONE' })
   hl(0, "gitcommitBranch", { fg = c.orange, bg = 'NONE' })
+  hl(0, "gitcommitHeader", { fg = c.blue, bg = 'NONE' })
 
 end
 
