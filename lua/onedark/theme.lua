@@ -416,15 +416,20 @@ theme.set_highlights = function()
   hl(0, "@text.literal.markdown_inline", { fg = c.orange, bg = 'NONE' })
   hl(0, "@text.literal.markdown", { fg = c.orange, bg = 'NONE' })
 
-  -- lua
+  -- Lua
   hl(0, "@lsp.type.property.lua", { fg = c.fg, bg = 'NONE' })
   hl(0, "@lsp.typemod.variable.global.lua", { fg = c.light_red, bg = 'NONE' })
   hl(0, "@lsp.mod.global.lua", { fg = c.light_red, bg = 'NONE' })
   hl(0, "@constant.builtin.lua", { fg = c.orange, bg = 'NONE' })
   hl(0, "@field.lua", { fg = c.fg, bg = 'NONE' })
 
-  -- typescript
+  -- Typescript
   hl(0, "@lsp.type.interface.typescriptreact", { fg = c.cyan, bg = 'NONE' })
+
+  -- Rust
+  hl(0, "rustEnumVariant", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "rustSigil", { fg = c.fg, bg = 'NONE' })
+  hl(0, "rustEscape", { link = 'String' })
 
   -- Lazy
   hl(0, "LazyButton", { fg = c.alt_fg, bg = c.alt_bg })
