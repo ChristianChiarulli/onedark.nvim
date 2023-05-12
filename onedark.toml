@@ -22,6 +22,7 @@ dark_gray = "#4b5263"
 visual = "#42566f"
 select = "#454a56"
 indent = "#333d4c"
+folder = "#45A8F8"
 
 hint = '#4fc1ff'
 info = '#ff8800'
@@ -84,7 +85,7 @@ CursorIM = 'bg fg'
 TermCursor = 'bg fg'
 TermCursorNC = 'bg fg'
 Conceal = 'light_gray'
-Directory = 'alt_fg'
+Directory = 'folder'
 SpecialKey = 'blue - b'
 ErrorMsg = 'dark_red bg b'
 Search = '- visual'
@@ -112,7 +113,7 @@ Type = 'cyan'
 Function = 'blue'
 Keyword = 'magenta'
 Conditional = 'magenta'
-Repeat = 'yellow'
+Repeat = 'magenta'
 Operator = 'cyan'
 PreProc = 'magenta'
 Include = 'magenta'
@@ -358,7 +359,7 @@ TelescopePreviewHyphen = "dark_red"
 
 [Lir]
 LirFloatNormal = 'alt_fg alt_bg'
-LirDir = 'alt_fg'
+LirDir = 'link:Directory'
 LirSymLink = 'cyan'
 LirEmptyDirText = 'link:Comment'
 

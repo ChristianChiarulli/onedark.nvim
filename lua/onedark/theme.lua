@@ -51,7 +51,7 @@ theme.set_highlights = function()
   hl(0, "TermCursor", { fg = c.bg, bg = c.fg })
   hl(0, "TermCursorNC", { fg = c.bg, bg = c.fg })
   hl(0, "Conceal", { fg = c.light_gray, bg = 'NONE' })
-  hl(0, "Directory", { fg = c.alt_fg, bg = 'NONE' })
+  hl(0, "Directory", { fg = c.folder, bg = 'NONE' })
   hl(0, "SpecialKey", { fg = c.blue, bg = 'NONE', bold=true, })
   hl(0, "ErrorMsg", { fg = c.dark_red, bg = c.bg, bold=true, })
   hl(0, "Search", { fg = 'NONE', bg = c.visual })
@@ -280,7 +280,7 @@ theme.set_highlights = function()
 
   -- Lir
   hl(0, "LirFloatNormal", { fg = c.alt_fg, bg = c.alt_bg })
-  hl(0, "LirDir", { fg = c.alt_fg, bg = 'NONE' })
+  hl(0, "LirDir", { link = 'Directory' })
   hl(0, "LirSymLink", { fg = c.cyan, bg = 'NONE' })
   hl(0, "LirEmptyDirText", { link = 'Comment' })
 
