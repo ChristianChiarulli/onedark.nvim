@@ -523,6 +523,15 @@ rustSigil = 'fg'
 rustEscape = 'link:String'
 '@lsp.type.formatSpecifier.rust' = '@punctuation.special'
 
+[Zsh]
+zshCommands = "blue"
+zshDeref = "fg"
+zshShortDeref = "fg"
+zshSubst = "fg"
+zshVariableDef = "fg"
+zshSubstDelim = "link:@punctuation.special"
+zshKSHFunction = "link:Function"
+
 [Lazy]
 LazyButton = 'alt_fg alt_bg'
 LazyButtonActive = 'fg light_gray'

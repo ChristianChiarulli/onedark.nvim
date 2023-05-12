@@ -432,6 +432,15 @@ theme.set_highlights = function()
   hl(0, "rustEscape", { link = 'String' })
   hl(0, "@lsp.type.formatSpecifier.rust", { link = '@punctuation.special' })
 
+  -- Zsh
+  hl(0, "zshCommands", { fg = c.blue, bg = 'NONE' })
+  hl(0, "zshDeref", { fg = c.fg, bg = 'NONE' })
+  hl(0, "zshShortDeref", { fg = c.fg, bg = 'NONE' })
+  hl(0, "zshSubst", { fg = c.fg, bg = 'NONE' })
+  hl(0, "zshVariableDef", { fg = c.fg, bg = 'NONE' })
+  hl(0, "zshSubstDelim", { link = '@punctuation.special' })
+  hl(0, "zshKSHFunction", { link = 'Function' })
+
   -- Lazy
   hl(0, "LazyButton", { fg = c.alt_fg, bg = c.alt_bg })
   hl(0, "LazyButtonActive", { fg = c.fg, bg = c.light_gray })
