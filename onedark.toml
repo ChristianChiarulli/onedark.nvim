@@ -537,3 +537,7 @@ WhichKeyFloat = '- alt_bg'
 WhichKeyValue = 'alt_fg'
 WhichKeyBorder = 'link:FloatBorder'
 
+[Neogit]
+NeogitRemote = "orange"
+gitsummary = "fg"
+gitcommitBranch = "orange"

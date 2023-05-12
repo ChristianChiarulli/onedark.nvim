@@ -447,6 +447,12 @@ theme.set_highlights = function()
   hl(0, "WhichKeyFloat", { fg = 'NONE', bg = c.alt_bg })
   hl(0, "WhichKeyValue", { fg = c.alt_fg, bg = 'NONE' })
   hl(0, "WhichKeyBorder", { link = 'FloatBorder' })
+
+  -- Neogit
+  hl(0, "NeogitRemote", { fg = c.orange, bg = 'NONE' })
+  hl(0, "gitsummary", { fg = c.fg, bg = 'NONE' })
+  hl(0, "gitcommitBranch", { fg = c.orange, bg = 'NONE' })
+
 end
 
 return theme
