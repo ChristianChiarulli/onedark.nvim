@@ -25,9 +25,10 @@
     <a href="https://twitter.com/intent/follow?screen_name=chrisatmachine">
       <img alt="follow on Twitter" src="https://img.shields.io/twitter/follow/chrisatmachine?style=for-the-badge&logo=twitter&color=61afef&logoColor=D9E0EE&labelColor=302D41" />
     </a>
+  
+  My take on the iconic Onedark colorscheme. Ported for Neovim 100% Lua.
 </div>
 
-My take on the iconic Onedark colorscheme. Ported for Neovim 100% Lua.
 
 ![demo1](https://user-images.githubusercontent.com/29136904/237923271-802491ea-e632-4257-962b-731ae3dffd3a.png)
 
