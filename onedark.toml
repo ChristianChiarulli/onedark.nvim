@@ -345,16 +345,16 @@ IndentBlanklineContextChar = 'link:Comment'
 IndentBlanklineContextStart = '- - u'
 
 [Telescope]
-TelescopeSelection = '- select'
-TelescopeSelectionCaret = 'magenta select'
+TelescopeSelection = '- visual'
+TelescopeSelectionCaret = 'fg select'
 TelescopeMatching = 'yellow - bi'
 TelescopeBorder = 'blue bg'
 TelescopeNormal = 'fg bg'
-TelescopePromptTitle = "magenta"
-TelescopePromptPrefix = "magenta"
-TelescopeResultsTitle = "magenta"
-TelescopePreviewTitle = "magenta"
-TelescopePromptCounter = "cyan"
+TelescopePromptTitle = "cyan"
+TelescopePromptPrefix = "cyan"
+TelescopeResultsTitle = "cyan"
+TelescopePreviewTitle = "cyan"
+TelescopePromptCounter = "light_gray"
 TelescopePreviewHyphen = "dark_red"
 
 [Lir]
@@ -542,3 +542,4 @@ NeogitRemote = "orange"
 gitcommitSummary = "fg"
 gitcommitBranch = "orange"
 gitcommitHeader = "blue"
+
