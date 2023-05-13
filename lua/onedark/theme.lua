@@ -103,7 +103,7 @@ theme.set_highlights = function()
   hl(0, "Statement", { fg = c.magenta, bg = 'NONE' })
   hl(0, "Identifier", { fg = c.fg, bg = 'NONE' })
   hl(0, "PreCondit", { fg = c.magenta, bg = 'NONE' })
-  hl(0, "Special", { fg = c.light_red, bg = 'NONE' })
+  hl(0, "Special", { fg = c.magenta, bg = 'NONE' })
 
   -- StatusLine
   hl(0, "StatusLine", { fg = c.alt_fg, bg = c.alt_bg })

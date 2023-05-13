@@ -141,7 +141,7 @@ Error = 'dark_red - b'
 Statement = 'magenta'
 Identifier = 'fg'
 PreCondit = 'magenta'
-Special = 'light_red'
+Special = 'magenta'
 
 [StatusLine]
 StatusLine = 'alt_fg alt_bg'
