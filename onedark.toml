@@ -516,6 +516,8 @@ BufferLineIndicatorSelected = 'hint'
 
 [Typescript]
 '@lsp.type.interface.typescriptreact' = 'cyan'
+typescriptArrowFuncArg = 'fg'
+typescriptCall = 'fg'
 
 [Rust]
 rustEnumVariant = 'cyan'
