@@ -427,6 +427,7 @@ theme.set_highlights = function()
   hl(0, "@lsp.type.interface.typescriptreact", { fg = c.cyan, bg = 'NONE' })
   hl(0, "typescriptArrowFuncArg", { fg = c.fg, bg = 'NONE' })
   hl(0, "typescriptCall", { fg = c.fg, bg = 'NONE' })
+  hl(0, "typescriptTemplateSB", { fg = c.dark_red, bg = 'NONE' })
 
   -- Rust
   hl(0, "rustEnumVariant", { fg = c.cyan, bg = 'NONE' })
