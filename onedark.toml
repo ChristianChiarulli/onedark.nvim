@@ -457,8 +457,8 @@ NavicIconsStruct = 'link:CmpItemKindStruct'
 NavicIconsEvent = 'link:CmpItemKindEvent'
 NavicIconsOperator = 'link:CmpItemKindOperator'
 NavicIconsTypeParameter = 'link:CmpItemKindTypeParameter'
-NavicText = 'link:@comment'
-NavicSeparator = 'dark_gray'
+NavicText = 'alt_fg'
+NavicSeparator = 'alt_fg'
 
 [Bookmarks]
 BookmarkSign = 'hint'
@@ -519,6 +519,7 @@ BufferLineIndicatorSelected = 'hint'
 typescriptArrowFuncArg = 'fg'
 typescriptCall = 'fg'
 typescriptTemplateSB = 'dark_red'
+typescriptBraces = 'fg'
 
 [Rust]
 rustEnumVariant = 'cyan'
