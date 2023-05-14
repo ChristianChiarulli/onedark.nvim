@@ -421,6 +421,7 @@ theme.set_highlights = function()
   hl(0, "@constant.builtin.lua", { fg = c.orange, bg = 'NONE' })
   hl(0, "@field.lua", { fg = c.fg, bg = 'NONE' })
   hl(0, "@variable.lua", { fg = c.light_red, bg = 'NONE' })
+  hl(0, "@lsp.type.variable.lua", { fg = c.light_red, bg = 'NONE' })
 
   -- Typescript
   hl(0, "@lsp.type.interface.typescriptreact", { fg = c.cyan, bg = 'NONE' })

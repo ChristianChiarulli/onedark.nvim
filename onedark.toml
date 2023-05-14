@@ -514,6 +514,7 @@ BufferLineIndicatorSelected = 'hint'
 '@constant.builtin.lua' = 'orange'
 '@field.lua' = 'fg'
 '@variable.lua' = 'light_red'
+'@lsp.type.variable.lua' = 'light_red'
 
 [Typescript]
 '@lsp.type.interface.typescriptreact' = 'cyan'
