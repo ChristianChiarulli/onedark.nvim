@@ -513,6 +513,7 @@ BufferLineIndicatorSelected = 'hint'
 '@lsp.mod.global.lua' = 'light_red'
 '@constant.builtin.lua' = 'orange'
 '@field.lua' = 'fg'
+'@variable.lua' = 'light_red'
 
 [Typescript]
 '@lsp.type.interface.typescriptreact' = 'cyan'
