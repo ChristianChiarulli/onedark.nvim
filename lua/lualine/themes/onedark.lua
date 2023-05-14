@@ -1,13 +1,13 @@
 
 local colors = {
-	blue = "#61afef",
-	green = "#98c379",
-	magenta = "#c678dd",
-	red = "#e06c75",
-	yellow = "#d19a66",
+	blue = "#73ACE9",
+	green = "#A0C181",
+	magenta = "#B378CF",
+	red = "#ca6871",
+	yellow = "#BF966B",
 	fg = "#9CA5B4",
 	bg = "#21252A",
-	gray = "#31353A",
+	gray = "#2c3136",
 }
 -- LuaFormatter on
 return {
