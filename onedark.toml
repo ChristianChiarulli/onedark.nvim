@@ -244,7 +244,7 @@ StatusLineNC = 'alt_bg alt_bg'
 
 # Tags
 '@tag' = 'link:Tag'
-'@tag.attribute' = 'light_red'
+'@tag.attribute' = 'light_red - i'
 '@tag.delimiter' = 'light_gray'
 
 # Conceal
