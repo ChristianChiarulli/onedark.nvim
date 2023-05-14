@@ -7,7 +7,7 @@ local colors = {
 	yellow = "#BF966B",
 	fg = "#9CA5B4",
 	bg = "#21252A",
-	gray = "#2c3136",
+	gray = "#31353A",
 }
 -- LuaFormatter on
 return {
