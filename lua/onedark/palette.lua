@@ -2,7 +2,8 @@ local colors = {
 	fg = "#abb2bf",
 	bg = "#282C34",
 	alt_fg = "#9CA5B4",
-	alt_bg = "#21252A",
+	-- alt_bg = "#21252A", -- dark
+	alt_bg = "#2F343E",
   light_red = "#CF7277",
 	blue = "#73ACE9",
 	green = "#A0C181",
@@ -29,6 +30,7 @@ local colors = {
 	gitsigns_add = "#73C990",
 	gitsigns_change = "#E1C08C",
 	gitsigns_delete = "#b2555b",
+  statusline_bg = "#2E343F",
 }
 
 return colors

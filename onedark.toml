@@ -9,7 +9,7 @@ bg = "#282C34"
 alt_fg = "#9CA5B4"
 alt_bg = "#21252A"
 
-light_red = "#ca6871"
+light_red = "#CF7277"
 blue = "#73ACE9"
 green = "#A0C181"
 cyan = "#6FB4C0"
@@ -25,6 +25,7 @@ visual = "#42566f"
 select = "#454a56"
 indent = "#333d4c"
 folder = "#45A8F8"
+statusline_bg = "#2E343F"
 
 hint = '#4fc1ff'
 info = '#ff8800'
@@ -144,8 +145,8 @@ PreCondit = 'magenta'
 Special = 'magenta'
 
 [StatusLine]
-StatusLine = 'alt_fg alt_bg'
-StatusLineNC = 'alt_bg alt_bg'
+StatusLine = 'alt_fg statusline_bg'
+StatusLineNC = 'statusline_bg alt_fg'
 
 [Treesitter]
 # Misc

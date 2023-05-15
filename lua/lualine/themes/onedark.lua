@@ -5,9 +5,12 @@ local colors = {
 	magenta = "#B378CF",
 	red = "#CF7277",
 	yellow = "#BF966B",
-	fg = "#9CA5B4",
-	bg = "#21252A",
-	gray = "#31353A",
+	fg = "#838994", -- darker
+	-- bg = "#21252A", --darker
+	bg = "#2E343F",
+	-- gray = "#31353A", --darker
+	gray = "#3B414D",
+
 }
 -- LuaFormatter on
 return {
