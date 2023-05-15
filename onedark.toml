@@ -368,7 +368,7 @@ LirEmptyDirText = 'link:Comment'
 
 [NvimTree]
 NvimTreeFolderIcon = 'link:Directory'
-NvimTreeIndentMarker = 'indent'
+NvimTreeIndentMarker = 'alt_fg'
 NvimTreeNormal = 'fg alt_bg'
 NvimTreeWinSeparator = 'alt_bg alt_bg'
 NvimTreeFolderName = 'link:Directory'
@@ -514,8 +514,8 @@ BufferLineIndicatorSelected = 'hint'
 '@lsp.mod.global.lua' = 'light_red'
 '@constant.builtin.lua' = 'orange'
 '@field.lua' = 'fg'
-'@variable.lua' = 'light_red'
-'@lsp.type.variable.lua' = 'light_red'
+'@variable.lua' = 'fg'
+'@lsp.type.variable.lua' = 'fg'
 
 [Typescript]
 '@lsp.type.interface.typescriptreact' = 'cyan'
