@@ -36,7 +36,6 @@ theme.set_highlights = function()
   hl(0, "DiffAdd", { fg = c.alt_bg, bg = c.green })
   hl(0, "DiffChange", { fg = c.alt_bg, bg = c.yellow, underline = true, })
   hl(0, "DiffDelete", { fg = c.alt_bg, bg = c.dark_red })
-  hl(0, "QuickFixLine", { fg = 'NONE', bg = c.visual })
   hl(0, "PmenuSbar", { fg = 'NONE', bg = c.alt_bg })
   hl(0, "PmenuThumb", { fg = 'NONE', bg = c.light_gray })
   hl(0, "MatchWord", { fg = 'NONE', bg = c.light_gray })
@@ -106,6 +105,19 @@ theme.set_highlights = function()
   -- StatusLine
   hl(0, "StatusLine", { fg = c.alt_fg, bg = c.alt_bg })
   hl(0, "StatusLineNC", { fg = c.alt_bg, bg = c.alt_bg })
+
+  -- QuickFix
+  hl(0, "QuickFixLine", { link = 'PmenuSel' })
+  hl(0, "qfSeparator", { fg = c.fg, bg = "NONE" })
+  hl(0, "qfFilename", { fg = c.cyan, bg = "NONE" })
+  hl(0, "qfLineNr", { fg = c.orange, bg = "NONE" })
+  hl(0, "qfError", {link = 'Error'})
+
+  -- Bqf
+  hl(0, "BqfPreviewBorder", { link = 'FloatBorder' })
+  hl(0, "BqfPreviewRange", { link = 'Visual' })
+  hl(0, "BqfSign", { fg = c.yellow, bg = 'NONE' })
+
 
   -- Treesitter
   hl(0, "@comment", { link = 'Comment' })
@@ -385,10 +397,6 @@ theme.set_highlights = function()
   hl(0, "BookmarkAnnotationSign", { fg = c.yellow, bg = 'NONE' })
   hl(0, "BookmarkLine", { link = 'Visual' })
   hl(0, "BookmarkAnnotationLine", { link = 'Visual' })
-
-  -- Bqf
-  hl(0, "BqfPreviewBorder", { link = 'FloatBorder' })
-  hl(0, "BqfPreviewRange", { link = 'Visual' })
 
   -- Buffer
   hl(0, "BufferCurrent", { fg = c.fg, bg = c.bg })
