@@ -444,6 +444,10 @@ theme.set_highlights = function()
   hl(0, "typescriptTemplateSB", { fg = c.dark_red, bg = 'NONE' })
   hl(0, "typescriptBraces", { fg = c.fg, bg = 'NONE' })
 
+  -- CSS
+  hl(0, "@property.css", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "@string.css", { fg = c.orange, bg = 'NONE' })
+  hl(0, "@string.special.css", { fg = c.yellow, bg = 'NONE' })
 
   -- Rust
   hl(0, "rustEnumVariant", { fg = c.cyan, bg = 'NONE' })
